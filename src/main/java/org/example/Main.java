@@ -8,8 +8,8 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 public class Main {
     public static void main(String[] args) {
-        String botName = "smm_content_support_bot"; // В место звездочек указываем имя созданного вами ранее Бота
-        String botToken = "6126755491:AAEcSafsxoMGZnqnNjBU2DwcTxp1aqHYQ9g"; // В место звездочек указываем токен созданного вами ранее Бота
+        String botName = "**"; // В место звездочек указываем имя созданного вами ранее Бота
+        String botToken = "**"; // В место звездочек указываем токен созданного вами ранее Бота
         TelegramBotsApi telegramBotsApi = null;
         try {
             telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
